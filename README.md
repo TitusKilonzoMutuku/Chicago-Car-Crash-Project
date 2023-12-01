@@ -8,7 +8,7 @@ The goal is to create a classification model to predict what are the leading ind
 
 If successful and the City of Chicago implements my recommendations, Chicago will see a decrease in injuries and fatalities, decrease in traffic and an overall increase in safety for all citizens. 
 ## Dataset
-The source for the datasets came from the City of Chicago Website. There were three datasets that we observed, "Traffic Crashes - Crashes", "Traffic Crashes - Vehicle", and "Traffic Crashes - People". Then I merged them into one database. 
+The source for the datasets came from the City of Chicago Website. There were three datasets that I observed, "Traffic Crashes - Crashes", "Traffic Crashes - Vehicle", and "Traffic Crashes - People". Then I merged them into one database. 
 
 Column names and descriptions can be found here; 
 
@@ -51,7 +51,7 @@ https://data.cityofchicago.org/Transportation/Traffic-Crashes-People/u6pd-qa9d
 
 The first steps to creating my model were to obtain and merge all three of the data sets into one. 
 
-To trim the number of columns, we first calculated how many null values there were per column.
+To trim the number of columns, I first calculated how many null values there were per column.
 
 Next, I removed redundant and irrelevant columns and this was decided by reviewing the "column descriptions" provided by the city of Chicago website. 
 
